@@ -1,0 +1,61 @@
+[debug] [2018-09-02T14:45:20.505Z] ----------------------------------------------------------------------
+[debug] [2018-09-02T14:45:20.508Z] Command:       /Users/marutaryou/.nodebrew/node/v10.9.0/bin/node /Users/marutaryou/.nodebrew/current/bin/firebase serve --only hosting
+[debug] [2018-09-02T14:45:20.508Z] CLI Version:   4.2.1
+[debug] [2018-09-02T14:45:20.508Z] Platform:      darwin
+[debug] [2018-09-02T14:45:20.508Z] Node Version:  v10.9.0
+[debug] [2018-09-02T14:45:20.510Z] Time:          Sun Sep 02 2018 23:45:20 GMT+0900 (GMT+09:00)
+[debug] [2018-09-02T14:45:20.510Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-09-02T14:45:20.523Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-09-02T14:45:20.523Z] > authorizing via signed-in user
+[debug] [2018-09-02T14:45:20.525Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-09-02T14:45:20.525Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+
+[debug] [2018-09-02T14:45:20.704Z] <<< HTTP RESPONSE 200
+[debug] [2018-09-02T14:45:20.742Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/friendlychat-e3d21  
+ 
+[debug] [2018-09-02T14:45:21.411Z] <<< HTTP RESPONSE 200
+[debug] [2018-09-02T14:45:21.412Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/friendlychat-e3d21  
+ 
+[debug] [2018-09-02T14:45:22.179Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/marutaryou/develop/myProjects/friendlychat-web/web-start'...
+[info] 
+[debug] [2018-09-02T14:45:22.182Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/686982163935/clients/_:getWebAppConfig  
+ 
+[debug] [2018-09-02T14:45:22.883Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5000 is not available. Trying another port...
+[info] i  hosting[friendlychat-e3d21]: Serving hosting files from: ./
+[info] ✔  hosting[friendlychat-e3d21]: Local server: http://localhost:5005
+[debug] [2018-09-02T14:51:15.646Z] ----------------------------------------------------------------------
+[debug] [2018-09-02T14:51:15.649Z] Command:       /Users/marutaryou/.nodebrew/node/v10.9.0/bin/node /Users/marutaryou/.nodebrew/current/bin/firebase serve
+[debug] [2018-09-02T14:51:15.649Z] CLI Version:   4.2.1
+[debug] [2018-09-02T14:51:15.649Z] Platform:      darwin
+[debug] [2018-09-02T14:51:15.649Z] Node Version:  v10.9.0
+[debug] [2018-09-02T14:51:15.650Z] Time:          Sun Sep 02 2018 23:51:15 GMT+0900 (GMT+09:00)
+[debug] [2018-09-02T14:51:15.650Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-09-02T14:51:15.712Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-09-02T14:51:15.712Z] > authorizing via signed-in user
+[debug] [2018-09-02T14:51:15.714Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/friendlychat-e3d21  
+ 
+[debug] [2018-09-02T14:51:16.530Z] <<< HTTP RESPONSE 200
+[debug] [2018-09-02T14:51:16.532Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/friendlychat-e3d21  
+ 
+[debug] [2018-09-02T14:51:17.311Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/marutaryou/develop/myProjects/friendlychat-web/web-start'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-09-02T14:51:22.222Z] Fetching environment
+[debug] [2018-09-02T14:51:22.234Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/686982163935:getServerAppConfig  
+ 
+[debug] [2018-09-02T14:51:22.234Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/686982163935/clients/_:getWebAppConfig  
+ 
+[debug] [2018-09-02T14:51:22.903Z] <<< HTTP RESPONSE 200
+[info] i  hosting[friendlychat-e3d21]: Serving hosting files from: ./
+[info] ✔  hosting[friendlychat-e3d21]: Local server: http://localhost:5000
+[debug] [2018-09-02T14:51:22.997Z] <<< HTTP RESPONSE 200
+[debug] [2018-09-02T14:51:22.997Z] Starting @google-cloud/functions-emulator
+[debug] [2018-09-02T14:51:26.665Z] Parsing function triggers
+[info] i  functions: No HTTPS functions found. Use firebase functions:shell if you would like to emulate other types of functions.
