@@ -1,5 +1,6 @@
 {
   "projects": {
-    "staging": "friendlychat-e3d21"
+    "staging": "friendlychat-e3d21",
+    "staginf": "friendlychat-e3d21"
   }
 }
